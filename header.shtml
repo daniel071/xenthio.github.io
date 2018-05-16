@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="jquery.js"></script> 
-    	<script> 
-    	$(function(){
-    	  $("#includedContent").load("header.html"); 
-    	});
-    	</script> 
-
-		<title>XENTHIO</title>
+		<title>PENDAN OS - XENTHIO</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -105,11 +98,147 @@ var STYLE_PREFIX = 'wsite';
 		
 		
 	</head>
+	<body class="header-page  wsite-theme-light  wsite-page-pendan-os"><div class="wrapper">
+	  <div class="header-wrap">
+	    <div id="topBar" class="topbar">
+	      <label class="hamburger"><span></span></label>
+	      <div class="logo"><span class="wsite-logo">
 
-	<body>
-		<div id="includedContent"></div>
-		<!--#include file="header.shtml" -->
-		<h1>Hello</h1>
+	<a href="">
+		<img src="uploads/4/4/8/6/44864897/published/xenthios.png?1484103449" alt="XENTHIO" />
+	</a>
+
+</span></div>
+          
+          
+	    </div><!-- end .container -->
+
+		  <div class="banner-wrap">
+				<div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image wsite-section-effect-parallax" style="background-image: url(&quot;/uploads/4/4/8/6/44864897/background-images/1734161210.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 110% ;background-color: transparent ;background-size: 110%;background-attachment: fixed;" >
+		<div class="wsite-section-content">
+			
+					<div class="container">
+
+
+
+
+							<!--MAIN CONTAINER-->
+
+
+
+
+					</div>
+				
+		</div>
+		<div class=""></div>
+	</div>
+</div>
+
+</div>
+
+
+			</div>
+	  </div><!-- end .header-wrap -->
+
+	 <div class="w-navlist nav-wrap">
+	   	<div class="container">
+	   		<div class="nav desktop-nav"><ul class="wsite-menu-default">
+		<li id="pg461430533959439289" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg726239740229219879" class="wsite-menu-item-wrap">
+			<a
+						href="legacy.html"
+				class="wsite-menu-item"
+				>
+				Legacy Page
+			</a>
+			
+		</li>
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="http://xenthio.tk/jewel"
+				class="wsite-menu-item"
+				>
+				Jewel
+			</a>
+			
+		</li>
+</ul>
+</div>
+	   	</div>
+	 </div>
+
+	<div class="main-wrap">
+		<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-11 wsite-custom-background"  >
+		<div class="wsite-section-content">
+		    <div class="container">
+			<div class="wsite-section-elements">
+				<div><div class="wsite-image wsite-image-border-none wsite-image-border-black" style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<!--Insert Elements In Here-->
+
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+	  </div>
+
+	<div class="w-navpane nav mobile-nav">
+		<label class="hamburger w-navpane-trigger"><span></span></label>
+		<ul class="wsite-menu-default">
+				<li id="pg461430533959439289" class="wsite-menu-item-wrap">
+					<a
+								href="index.html"
+						class="wsite-menu-item"
+						>
+						Home
+					</a>
+					
+				</li>
+				<li id="pg726239740229219879" class="wsite-menu-item-wrap">
+					<a
+								href="legacy.html"
+						class="wsite-menu-item"
+						>
+						Legacy Page
+					</a>
+					
+				</li>
+				<li id="active" class="wsite-menu-item-wrap">
+					<a
+								href="http://www.xenthio.tk/jewel"
+						class="wsite-menu-item"
+						>
+						Jewel
+					</a>
+					
+				</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="files/theme/plugins.js"></script>
+	<script type="text/javascript" src="files/theme/custom.js"></script>
+
+		
 	</body>
-
 </html>
