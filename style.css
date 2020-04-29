@@ -7,7 +7,7 @@
 
 /* And this to your table's `td` elements. */
 #page td {
-   padding: 0; 
+   padding: 0;
    margin: 0;
 }
 
@@ -43,7 +43,7 @@ header {
 	background-color: #010312;
 	text-align: center;
 	font-family: Roboto, Arial, sans-serif;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 
@@ -52,7 +52,7 @@ header {
 .round {
 	  box-shadow: 0px 0px 8px #171c2b;
 	  margin-top: 5px;
-  	
+
   	display: flex;
     border-top-right-radius:4px;
     border-top-left-radius:4px;
@@ -69,9 +69,9 @@ header {
   text-align: center;
   font-family: Roboto, Arial, sans-serif;
   text-shadow: 0 0 4px #b5e9f5;
-  margin: 0; 
-  padding-top: 180px; 
-  padding-bottom: 180px; 
+  margin: 0;
+  padding-top: 180px;
+  padding-bottom: 180px;
 
 }
 
@@ -81,8 +81,8 @@ header {
   text-align: center;
   font-size: 20px;
   font-family: Roboto, Arial, sans-serif;
-  padding-top: 64px; 
-  padding-bottom: 256px; 
+  padding-top: 64px;
+  padding-bottom: 256px;
 }
 
 ul {
@@ -96,7 +96,7 @@ ul {
   height: 40px;
   background-color: #03011a;
   overflow: visible;
- 
+
 }
 
 li {
@@ -147,7 +147,7 @@ li a {
 }
 
 li b {
-  
+
 	background-color: #03011a;
 	font-size: 20px;
 	font-family: Roboto, Arial, sans-serif;
@@ -155,7 +155,7 @@ li b {
   width: 15%;
   color: #b5e9f5;
   margin-left: 32px;
-  
+
   padding-top: 8px;
   text-decoration: none;
 
@@ -185,12 +185,12 @@ li a:hover {
 }
 
 section {
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 div {
 
-  padding: 0; 
+  padding: 0;
   margin: 0;
   overflow-y: hidden;
   color: white;
@@ -200,7 +200,7 @@ div {
 body {
   background-color: #000;
   width: 100%;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 
@@ -272,12 +272,16 @@ body {
 
 
 .static {
+	clear: both;
   background: #03011a;
   transform-style: preserve-3d;
+	overflow-y: show;
+	z-index: 1;
 }
 
 .header {
   transform-style: preserve-3d;
+	position: relative;
   color: white;
   overflow-y: hidden;
 
@@ -286,6 +290,7 @@ body {
 
 .content {
   color: white;
+	position: relative;
   overflow-y: hidden;
   text-align: center;
   padding-top: 64px;
