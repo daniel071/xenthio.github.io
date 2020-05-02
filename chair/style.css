@@ -1,0 +1,170 @@
+.header {
+  transform-style: preserve-3d;
+  position: relative;
+  color: white;
+  overflow-y: hidden;
+  color: white;
+  height: 40px;
+}
+.footer {
+	bottom: 0;
+	background-color: #010312;
+	text-align: center;
+	font-family: Roboto, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  transform-style: preserve-3d;
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  width: 100%;
+  height: 100vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 1px;
+}
+
+.round {
+	  box-shadow: 0px 0px 8px #171c2b;
+	  margin-top: 5px;
+
+  	display: flex;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+    float: right;
+  	overflow: hidden;
+    margin-right: 32px;
+}
+
+
+
+
+ul {
+  vertical-align: middle;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #03011a;
+  overflow: visible;
+
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+li a {
+  transition: background-color 3s ease;
+  transition: text-shadow 0.2s ease;
+	font-size: 10px;
+	font-family: Roboto, Arial, sans-serif;
+  display: block;
+  background-color: #171c2b;
+  color: white;
+  padding: 8px 16px;
+
+  float: right;
+  text-decoration: none;
+}
+
+button {
+  transition: background-color 3s ease;
+  transition: text-shadow 0.2s ease;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  display: block;
+  background-color: #171c2b;
+  color: white;
+  padding: 8px 16px;
+  float: inherit;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-decoration: none;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;
+  border-bottom-right-radius:4px;
+  border-bottom-left-radius:4px;
+  display: inline-block;
+}
+
+.button:hover {
+  transition: background-color 1s ease;
+  transition: text-shadow 0.2s ease;
+  background-color: #0e1024;
+  color: white;
+  text-shadow: 0 0 10px #cfe1ff;
+}
+
+li b {
+
+	background-color: #03011a;
+	font-size: 20px;
+	font-family: Roboto, Arial, sans-serif;
+  display: block;
+  width: 15%;
+  color: #b5e9f5;
+  margin-left: 32px;
+
+  padding-top: 8px;
+  text-decoration: none;
+
+  float: left;
+  text-shadow: 0 0 4px #b5e9f5;
+}
+
+li a.active {
+  background-color: #2a5e7a;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  transition: background-color 1s ease;
+  transition: text-shadow 0.2s ease;
+  background-color: #0e1024;
+  color: white;
+  text-shadow: 0 0 10px #cfe1ff;
+}
+
+li a:hover {
+  transition: background-color 1s ease;
+  transition: text-shadow 0.2s ease;
+  background-color: #013c52;
+  color: white;
+  text-shadow: 0 0 10px #cfe1ff;
+}
+
+section {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.section {
+  transform-style: preserve-3d;
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 500px;
+
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
