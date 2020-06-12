@@ -18,16 +18,16 @@
   clear: both;   // optional. use only if you are using float
 }
 
-
 html {
   scroll-behavior: smooth
-  min-height: 100%;
+  max-height: 100vh;
   overflow-x: initial !important;
 }
 
 body {
   background-color: #000;
-  height: 100%;
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 
@@ -63,15 +63,23 @@ header {
     margin-right: 32px;
 }
 
+@keyframes fadein {
+    from { text-shadow: 0 0 32px #b5e9f5, 0 0 16px #b5e9f5, 0 0 8px #b5e9f5, 0 0 4px #b5e9f5,  0 0 2px #b5e9f5; }
+    to   { text-shadow: 0 0 4px #b5e9f5; }
+}
+
 .splash {
-  font-size: 50px;
-  color: white;
-  text-align: center;
-  font-family: Roboto, Arial, sans-serif;
-  text-shadow: 0 0 4px #b5e9f5;
-  margin: 0;
-  padding-top: 180px;
-  padding-bottom: 180px;
+	animation: fadein 2s;
+	/*transition: text-shadow 0.2s ease;*/
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: Roboto, Arial, sans-serif;
+	text-shadow: 0 0 4px #b5e9f5;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 180px;
+	padding-bottom: 180px;
 
 }
 
@@ -198,10 +206,14 @@ div {
 }
 
 body {
-  background-color: #000;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #000;
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+  
 }
 
 .wrapper {
@@ -212,9 +224,13 @@ body {
   /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
   overflow-x: hidden;
   /* Enable scrolling on the page. */
-  overflow-y: auto;
+  overflow-y: show;
   /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
   perspective: 1px;
+}
+
+.break {
+	height: 500px;
 }
 
 .section {
@@ -222,7 +238,7 @@ body {
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 500px;
+  height: 432px;
 
   /* For text formatting. */
   display: flex;
