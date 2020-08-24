@@ -50,7 +50,7 @@ function random_content(){
 	tip[41]="i should be doing something else, but instead im writing this!"
 	tip[43]="that how to download graphics card meme no longer works because you can actually download a graphics card. its called nvidea geforce now"
 	tip[44]=" "
-	tip[45]="<IMG src=\"/7e6.gif\">"
+	tip[45]="<IMG src=\"assets/7e6.gif\">"
 	tip[46]="yeet"
 	tip[47]="dxsPUhabABEF5gzPq51s6YFGrJAMHNVnr6d16dB/EimRXkvEH0BcOzeNZBK19vhF33kMGxdz3+eGorg1yw+TGpmxFlKT0YrWZ4GT9SPg1yr9Dm/BQGKYv3JOkD6FaqIrb1c5syfHKK3hpxOQaF0egm1l1hXmS41tEU0CLAb/znw2LydW89OnZQ==" // tip[47] + CB[?] + bl[?]wfis[?].js + base64 + encrypt code = ???? -->
 	tip[48]="<strike>Half-Life 3</strike> Half-Life 1.5 1000$ VR only Edition"

@@ -65,7 +65,7 @@ header {
 
 @keyframes fadein {
     from { text-shadow: 0 0 32px #b5e9f5, 0 0 16px #b5e9f5, 0 0 8px #b5e9f5, 0 0 4px #b5e9f5,  0 0 2px #b5e9f5; }
-    to   { text-shadow: 0 0 4px #b5e9f5; }
+    to   { text-shadow: 0 0 8px #b5e9f5, 0 0 4px #b5e9f5, 0 0 2px #b5e9f5;; }
 }
 
 .splash {
@@ -75,7 +75,7 @@ header {
 	color: white;
 	text-align: center;
 	font-family: Roboto, Arial, sans-serif;
-	text-shadow: 0 0 4px #b5e9f5;
+	text-shadow: 0 0 8px #b5e9f5, 0 0 4px #b5e9f5, 0 0 2px #b5e9f5;;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 180px;
@@ -161,6 +161,23 @@ li b {
 	font-family: Roboto, Arial, sans-serif;
   display: block;
   width: 30%;
+  color: #b5e9f5;
+  margin-left: 32px;
+
+  padding-top: 8px;
+  text-decoration: none;
+
+  float: left;
+  text-shadow: 0 0 4px #b5e9f5;
+}
+
+li c {
+
+  background-color: #03011a;
+  font-size: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  display: block;
+  width: 8px;
   color: #b5e9f5;
   margin-left: 32px;
 
@@ -317,12 +334,12 @@ body {
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-  background-image: url('main.jpg');
+  background-image: url('assets/main.jpg');
 }
 
 .bg2::after {
-  background-image: url('xScript.png');
+  background-image: url('assets/xScript.png');
 }
 .bg3::after {
-  background-image: url('DungeonCli.png');
+  background-image: url('assets/DungeonCli.png');
 }
